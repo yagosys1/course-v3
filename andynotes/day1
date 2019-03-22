@@ -1,5 +1,18 @@
+#1 Jupyiter tutorials
+
 https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/pdf_bw/
 Esc 
 a/b 
 dd
+
+#2 about fastai datasets
+
+URLs.PETS  are imported from fastai.vision 
+the destination of data is stored under the location specified in ~/.fastai/config.yml
+➜  .fastai cat config.yml
+data_path: /Users/interbeing/.fastai/data
+model_path: /Users/interbeing/.fastai/models
+➜  .fastai pwd
+/Users/interbeing/.fastai
+
 
