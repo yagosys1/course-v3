@@ -17,3 +17,7 @@ base_dir = root_dir + 'fastai-v3/'
 ref
 https://forums.fast.ai/t/fast-ai-v3-2019/39325/2
 
+gpus on gce are not available at al regions. check
+https://cloud.google.com/compute/docs/gpus/
+
+
