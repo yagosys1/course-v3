@@ -59,3 +59,11 @@ os.path.join('/Users/interbeing/.fastai/data/oxford-iiit-pet',"annotations")
 
 # display where the model is saved
 learn.save('stage-1',return_path=True)
+
+force to disable cuda
+
+```
+CUDA_VISIBLE_DEVICE=''
+or
+fastai.torch_core.defaults.device='cpu'
+
